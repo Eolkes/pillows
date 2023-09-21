@@ -1,0 +1,604 @@
+* {
+    margin: 0px;
+    padding: 0%;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    height: 6233px;
+}
+
+li {
+    list-style: none;
+}
+
+.header {
+    height: 120px;
+    width: 1265px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu__item {
+    margin-right: 40px;
+}
+
+.menu__list {
+    display: flex;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu__link {
+    color: #B08EAD;
+    text-decoration: none;
+    font-family: Cormorant Garamond;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.header__logo {
+    width: 122px;
+    height: 63px;
+}
+
+img {
+    width: 100%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.first {
+    background: url(../img/Framefon_1.png);
+    background-repeat: no-repeat;
+    height: 820px;
+    margin: 0% auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 1440px;
+    height: 675px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container__block {
+    background-color: #B08EAD;
+    width: 425px;
+    height: 450px;
+    margin-left: 790px;
+    display: flex;
+    align-items: center;
+}
+
+.container__block__text {
+    margin-left: 40.25px;
+    width: 280px;
+    height: 202px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.container__New {
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: #ffffff;
+
+}
+
+.container__text {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 55px;
+    color: #fff;
+}
+
+.container__buy {
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: #ffffff;
+}
+
+.container__line {
+    width: 72px;
+    height: 2px;
+}
+
+.blocks {
+    height: 806px;
+    width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blocks__block {
+    height: 657.64px;
+    width: 1265px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.blocks__block__text {
+    width: 789.75px;
+    height: 181px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.blocks__h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #B99BB6;
+}
+
+.blocks__text {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 38px;
+    text-align: center;
+    color: #5F4D5D;
+}
+
+.blocks__btn {
+    height: 45px;
+    width: 141px;
+    border: 1px solid #B99BB6;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #B99BB6;
+    text-decoration: none;
+}
+
+.blocks__photos {
+    margin-top: 50px;
+    width: 1215px;
+    height: 426.64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.blocks__img {
+    width: 368px;
+    height: 427px;
+    margin-left: 18.5px;
+    margin-right: 18.5px;
+    background-color: #CEB3CB;
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.blocks__img__p_1 {
+    margin-top: 20px;
+    margin-left: 23px;
+    font-size: 23px;
+    margin-bottom: 6px;
+}
+
+.blocks__img__p_2 {
+    margin-left: 23px;
+    font-size: 17px;
+    color: #fff;
+}
+
+.girl {
+    background: url(../img/Framefon_2.png);
+    width: 1440px;
+    height: 825px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.girl__block {
+    width: 1215px;
+    height: 675px;
+    display: flex;
+    align-items: center;
+}
+
+.girl__block__text {
+    margin-left: 101.5px;
+    width: 440px;
+    height: 450px;
+    background-color: #B08EAD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.girl__text {
+    width: 319px;
+    height: 202px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.girl__item_1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.girl__item_2 {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 55px;
+    color: #FFFFFF;
+}
+
+.girl__item_3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.girl__line {
+    width: 101px;
+    height: 2px;
+}
+
+.about {
+    width: 1440px;
+    height: 1651px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about__block {
+    width: 1265px;
+    height: 1500.97px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about__photos-1 {
+    width: 1215px;
+    height: 457px;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-bottom: 40px;
+}
+
+.about__block__text-1 {
+    margin: 0px 60.75px;
+    width: 486px;
+    height: 240px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.about__h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #B99BB6;
+}
+
+.about__text {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #5F4D5D;
+}
+
+.about__photos-2 {
+    margin-top: 39.97px;
+    width: 1215px;
+    height: 547px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-right: 24.5px;
+}
+
+.about__img-2 {
+    width: 544px;
+    height: 506px;
+    margin-left: 30.5px;
+}
+
+.about__block__text-2 {
+    width: 486px;
+    height: 305px;
+    margin-left: 92.75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 141px;
+    height: 45px;
+    border: 1px solid #B99BB6;
+    border-radius: 25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #B99BB6;
+}
+
+.about__photos-3 {
+    width: 1215px;
+    height: 416.88px;
+    display: flex;
+    margin-top: 39.73px;
+    align-items: center;
+    flex-direction: row-reverse
+}
+
+.about__block__text-3 {
+    width: 486px;
+    height: 250px;
+    margin-right: 60.75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about__line {
+    width: 1215px;
+    height: 1px;
+    background-color: #D7B7D4;
+}
+
+.pillow {
+    height: 825px;
+    width: 1440px;
+    background: url(../img/Framefon_3.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pillow__block {
+    height: 675px;
+    width: 1215px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.pillow__block__text {
+    width: 440px;
+    height: 450px;
+    display: flex;
+    margin-right: 101.5px;
+    align-items: center;
+    justify-content: center;
+    background: #B08EAD;
+}
+
+.pillow__paragraph {
+    width: 280px;
+    height: 202px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pillow__New {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.pillow__text {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 55px;
+    color: #fff;
+}
+
+.pillow__buy {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.pillow__line {
+    width: 72.5px;
+    height: 2px;
+}
+
+.prices {
+    height: 1050px;
+    width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.prices__block {
+    height: 990.47px;
+    width: 1215px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.prices__line_1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 48.59px;
+}
+
+.prices__line_2 {
+    display: flex;
+    justify-content: center;
+}
+
+.prices__photos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 26.72px;
+    height: 446.64px;
+    width: 376.64px;
+}
+
+.prices__h1 {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #5F4D5D;
+}
+
+.price {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #B0B0B0;
+}
+
+.prices__img {
+    width: 377px;
+    height: 377px;
+}
+
+.footer {
+    width: 1440px;
+    height: 137px;
+    background: #C9ADC6;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.footer__logo {
+    margin-left: 113px;
+    margin-right: 63.75px;
+}
+
+.footer__menu {
+    display: flex;
+    align-items: center;
+}
+
+.footer__menu__list {
+    display: flex;
+    align-items: center;
+}
+
+.footer__menu__item {
+    margin-right: 35px;
+}
+
+.footer__menu__link {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 21px;
+    color: #fff;
+}
